@@ -1,0 +1,16 @@
+[
+  {
+    "id": "policy-001",
+    "content": "Employees are entitled to 20 days of paid leave per year.",
+    "title": "Leave Policy",
+    "pageIndex": 1,
+    "documentId": "employee-handbook"
+  },
+  {
+    "id": "policy-002",
+    "content": "The company provides health insurance through XYZ provider.",
+    "title": "Benefits",
+    "pageIndex": 2,
+    "documentId": "employee-handbook"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "docs-001",
+    "content": "Function getUserProfile(userId) retrieves profile info from the database.",
+    "title": "User Service API",
+    "pageIndex": 1,
+    "documentId": "user-service-docs"
+  },
+  {
+    "id": "docs-002",
+    "content": "To create a new user, call POST /api/users with a JSON payload.",
+    "title": "User Service API",
+    "pageIndex": 2,
+    "documentId": "user-service-docs"
+  }
+]

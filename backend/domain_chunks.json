@@ -1,0 +1,16 @@
+[
+  {
+    "id": "domain-001",
+    "content": "In our company, SWE teams work mainly with event-driven microservices.",
+    "title": "Architecture Overview",
+    "pageIndex": 1,
+    "documentId": "onboarding-guide"
+  },
+  {
+    "id": "domain-002",
+    "content": "We use Kafka as the main message broker between services.",
+    "title": "Tech Stack",
+    "pageIndex": 2,
+    "documentId": "onboarding-guide"
+  }
+]
