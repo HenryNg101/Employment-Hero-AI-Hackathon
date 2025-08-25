@@ -21,6 +21,9 @@ This prototype is a **multi-agent Copilot** designed to help employees and HR te
    ```bash
    cd backend 
 
+   # Install dependencies
+   pip install requirements.txt
+
    # Pre-load pre-processed mock chunks information from json files
    python ingest_chunks.py docs ./docs_chunks.json
    python ingest_chunks.py domain ./domain_chunks.json
@@ -37,6 +40,8 @@ This prototype is a **multi-agent Copilot** designed to help employees and HR te
    npm run dev  
    ```
 4. Ensure Ollama is running locally with the chosen model pulled (e.g., `ollama pull llama3.1:8b`)
+
+**Note**: Make sure to configure a `.env.local` file in the `/frontend` folder with the port of the running Ollama model using OLLAMA_URL env variable, and the port of backend using RETRIEVER_BASE_URL env variable.
 
 ---
 
@@ -63,8 +68,8 @@ This prototype is a **multi-agent Copilot** designed to help employees and HR te
 
 * **Better Chunking** → Explore adaptive chunk sizes and hybrid approaches (semantic + structural) to improve retrieval accuracy.
 * **Model Optimization** → Try smaller, faster LLMs (e.g., `llama3.1:3b`, `mistral`, or OpenAI API if budget allows) to improve speed and responsiveness.
-* **Multi-Agent Coordination** → Extend current system with a few agents chat into a true multi-agent system where different specialists collaborate (policy, docs, domain knowledge).
-* **Polished UX** → Add styling, persona switching (choose “Policy Copilot” or “Docs Copilot”), and smoother demo experience.
+* **Multi-Agent Coordination** → Extend current system with a few agents chat into a true multi-agent system where different specialists collaborate (policy, docs, domain knowledge, LnD, well-being, etc.).
+* **Polished UX** → Add styling, persona switching depends on users needs (choose “Policy Copilot” or “Docs Copilot”), and smoother demo experience.
 * **Cost Efficiency** → Experiment with hybrid local + cloud inference for balance between speed and cost.
 
 ---
